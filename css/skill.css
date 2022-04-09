@@ -1,0 +1,143 @@
+.skill{
+    border: 3px solid #c65b7c;
+    margin: 30px 20px;
+    padding: 40px;
+    position: relative;
+}
+.skill::before{
+    background-color: #F0D7DF;
+    content: "skill";
+    border: 3px solid;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #c65b7c;
+    font-family: Papyrus;
+    font-weight: bold;
+    padding: 2px 10px;
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    text-align: center;
+    z-index: 2;
+}
+.skill::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 3px solid #c65b7c;
+    top: 5px;
+    left: 5px;
+}
+#sen1 {
+    font-size: 25px;
+    text-align: center;
+    color: #a4133c;
+    font-weight: bolder;
+    text-shadow: 10px 10px 5px #c65b7c;
+    font-style: italic;
+}
+ul{
+    list-style: none;
+}
+.skillname{
+    font-size: 20px;
+    font-family: Papyrus;
+    font-weight: bold;
+    position: relative;
+    left: 60px;
+    color: #c65b7c;
+    margin-top: 10px;    
+}
+.loading {
+    background-color: #F0D7DF;
+    width: 500px;
+    height: 31px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: #c65b7c 3px solid;
+    margin-left: 60px;
+    margin-top: 10px;
+} 
+.pre {
+    color: #c65b7c;
+    font-size: 20px;
+}
+#sk1 {
+    height: 24px;
+    width: 70%;
+    background-color:#a4133c;
+    animation: ski1 5s ease;
+    animation-iteration-count: infinite;
+    color: #F0D7DF;
+    font-size: large;
+}
+#sk2 {
+    height: 24px;
+    width: 80%;
+    background-color: #a4133c;
+    animation: ski2 5s ease;
+    animation-iteration-count: infinite;
+    color: #F0D7DF;
+    font-size: large;
+}
+#sk3 {
+    height: 24px;
+    width: 90%;
+    background-color: #a4133c;
+    animation: ski3 5s ease;
+    animation-iteration-count: infinite;
+    color: #F0D7DF;
+    font-size: large;
+}
+#sk4 {
+    height: 24px;
+    width: 85%;
+    background-color: #a4133c;
+    animation: ski4 5s ease;
+    animation-iteration-count: infinite;
+    color: #F0D7DF;
+    font-size: large;
+}
+#sk5 {
+    height: 24px;
+    width: 90%;
+    background-color: #a4133c;
+    animation: ski5 5s ease;
+    animation-iteration-count: infinite;
+    color: #F0D7DF;
+    font-size: large;
+}
+#sk6 {
+    height: 24px;
+    width: 75%;
+    background-color: #a4133c;
+    animation: ski6 5s ease;
+    animation-iteration-count: infinite;
+    color: #F0D7DF;
+    font-size: large;
+}
+@keyframes ski1 {
+    0% {width: 0;}
+    100% {width: 70%;}
+}
+@keyframes ski2 {
+    0% {width: 0;}
+    100% {width: 80%;}
+}
+@keyframes ski3 {
+    0% {width: 0;}
+    100% {width: 90%;}
+}
+@keyframes ski4 {
+    0% {width: 0;}
+    100% {width: 85%;}
+}
+@keyframes ski5 {
+    0% {width: 0;}
+    100% {width: 90%;}
+}
+@keyframes ski6 {
+    0% {width: 0;}
+    100% {width: 75%;}
+}

@@ -1,0 +1,87 @@
+.back{
+    border: 3px solid #c65b7c;
+    margin: 30px 20px;
+    padding: 40px;
+    position: relative;
+}
+.back::before{
+    background-color: #F0D7DF;
+    content: "background";
+    border: 3px solid;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #c65b7c;
+    font-family: Papyrus;
+    font-weight: bold;
+    padding: 2px 10px;
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    text-align: center;
+    z-index: 2;
+}
+.back::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 3px solid #c65b7c;
+    top: 5px;
+    left: 5px;
+}
+#sen3 {
+    font-size: 25px;
+    text-align: center;
+    color: #a4133c;
+    font-weight: bolder;
+    text-shadow: 10px 10px 5px #c65b7c;
+    font-style: italic;
+}
+#school {
+    columns: 4;
+}
+.sch-text {
+    -webkit-column-break-after: always;
+    font-size: large;
+    text-align: center;
+    color: #c65b7c;
+    font-weight: bold;
+}
+.school-1 {
+    position: relative;
+    width: 247px;
+    height: 200px;
+    z-index: 4;
+    transition: transform 1s ease;
+}
+.school-1:hover {
+    transform: scale(1.1);
+}
+.school-2 {
+    position: relative;
+    z-index: 4;
+    transition: transform 1s ease;
+}
+.school-2:hover {
+    transform: scale(1.1);
+}
+.school-3 {
+    position: relative;
+    width: 193px;
+    height: 200px;
+    z-index: 4;
+    transition: transform 1s ease;
+}
+.school-3:hover {
+    transform: scale(1.1);
+}
+.school-4 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    z-index: 4;
+    transition: transform 1s ease;
+}
+.school-4:hover {
+    transform: scale(1.1);
+}
